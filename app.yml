@@ -1,0 +1,14 @@
+default_events:
+  - status
+default_permissions:
+  # Search repositories, list collaborators, and access repository '.
+  # https://developer.github.com/v3/apps/permissions/#metadata-permissions
+  metadata: read
+
+  # Pull requests and related comments, assignees, labels, milestones, and merges.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests
+  pull_requests: write
+
+  # Commit statuses.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-statuses
+  statuses: read
