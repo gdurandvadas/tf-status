@@ -22,7 +22,7 @@
   "devDependencies": {
     "eslint": "^8.14.0",
     "jest": "^28.0.3",
-    "nock": "^13.0.5",
+    "nock": "^13.2.4",
     "smee-client": "^1.2.2"
   },
   "engines": {
